@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { HashRouter as Router, Switch } from "react-router-dom";
+import { Grommet } from "grommet";
+import Menu from "./components/sections/Menu";
+import Paths from "./components/sections/Paths";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grommet plain>
+      <Router>
+        <div className="sticky w-screen top-0 z-50">
+          <Menu />
+          
+        </div>
+        <Switch>
+          <Paths />
+        </Switch>
+      </Router>
+    </Grommet>
   );
 }
 
