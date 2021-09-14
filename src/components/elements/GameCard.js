@@ -28,7 +28,7 @@ const GameCard = ({ image, title, short, platform, url }) => {
           ></div>
         </CardBody>
         <CardFooter className="z-10  bg-white">
-          <Infopop text="Detalles">
+          <Infopop text="Ver/Jugar">
             <p className="p-3 w-60">{short}</p>
           </Infopop>
           <a href={url} target="_blank" rel="noreferrer">
