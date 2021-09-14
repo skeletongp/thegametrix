@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e60b26fa.chunk.css",
+    "main.js": "/static/js/main.a60763f7.chunk.js",
+    "main.js.map": "/static/js/main.a60763f7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1c00dc4d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1c00dc4d.js.map",
+    "static/js/2.7c88e0c1.chunk.js": "/static/js/2.7c88e0c1.chunk.js",
+    "static/js/2.7c88e0c1.chunk.js.map": "/static/js/2.7c88e0c1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e60b26fa.chunk.css.map": "/static/css/main.e60b26fa.chunk.css.map",
+    "static/js/2.7c88e0c1.chunk.js.LICENSE.txt": "/static/js/2.7c88e0c1.chunk.js.LICENSE.txt",
+    "static/media/gametrix.317d3f81.png": "/static/media/gametrix.317d3f81.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c00dc4d.js",
+    "static/js/2.7c88e0c1.chunk.js",
+    "static/css/main.e60b26fa.chunk.css",
+    "static/js/main.a60763f7.chunk.js"
+  ]
+}
